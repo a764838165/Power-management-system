@@ -1,0 +1,16 @@
+1.导包
+2.构建domian
+3.写hibernate.cfg.xml
+4.写spring配置文件（5大要素）
+5.构建dao成   服务器bena
+6.util转换类，泛型类
+7.web
+	action：继承baseAction，实现modeldrivern
+	from：vo对象
+8.container 加载容器类
+
+
+
+查询库信息po需转换为vo显示在页面  request
+
+迭代输出

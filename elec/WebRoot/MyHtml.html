@@ -1,0 +1,33 @@
+<html>
+<head>
+<style type="text/css">
+.cells{font-size:14px;font-weight:700;padding-right:15px;width:120px;text-align:right;color:#009;background:#f0f;}
+</style>
+<script type="text/javascript">
+function insRow()
+  {
+  var x=document.getElementByIdx_x('myTable').insertRow(0)
+  var y=x.insertCell(0)
+  var z=x.insertCell(1)
+  z.className="cells"
+ 
+  y.innerHTML="wanggang"
+  y.style.fontSize="12px"
+  y.style.fontWeight="700"
+  y.style.width="200px"
+  y.style.textAlign="right"
+  y.style.paddingRight="10px"
+  y.style.background="#ececec"
+ 
+  z.innerHTML="NEW CELL2"
+  }
+</script>
+</head>
+<body>
+<table id="myTable" border="1">
+ 
+</table>
+<br />
+<input type="button" onClick="insRow()" value="">
+</body>
+</html>
